@@ -1,0 +1,22 @@
+._tags_mrvio_76{
+    display: inline;
+}
+
+._tags_mrvio_76 div{
+    word-spacing: 15px;
+    margin-left: 15px;
+}
+
+.desc{
+    width: 99%;
+}
+
+@media (max-width: 335px) {
+    .socialNone {
+      display: none !important;
+    }
+    ._nav_7dyb5_1{
+        justify-content: space-evenly;
+        padding: 0;
+    }
+  }
