@@ -1,22 +1,27 @@
-._tags_mrvio_76{
+._tags_mrvio_76 {
     display: inline;
 }
 
-._tags_mrvio_76 div{
+._tags_mrvio_76 div {
     word-spacing: 15px;
     margin-left: 15px;
 }
 
-.desc{
+.desc {
     width: 99%;
 }
 
 @media (max-width: 335px) {
     .socialNone {
-      display: none !important;
+        display: none !important;
     }
-    ._nav_7dyb5_1{
+
+    ._nav_7dyb5_1 {
         justify-content: space-evenly;
         padding: 0;
     }
-  }
+}
+
+.desc {
+    height: clamp(15px, 1.5vw, 20px);
+}

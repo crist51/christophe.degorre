@@ -19,8 +19,11 @@ body{
   margin: 5px 0;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 414px) {
   .desc {
+    display: none;
+  }
+  .tagline{
     display: none;
   }
 }
@@ -70,7 +73,20 @@ body{
 
 h1, .sectionTitle  {
   font-size:clamp(20px, 7vw, 70px);
-  height: 65px;
+}
+
+
+
+@keyframes carret {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .subtitle{
@@ -96,3 +112,32 @@ h1, .sectionTitle  {
   transition: background-color 300ms;
 }
 
+.grid:where(.astro-HLE4NI4M) {
+  display: grid;
+  grid-gap: 3rem
+}
+
+.hero{
+  height: clamp(300px, 60vh, 600px);
+  background-position: center;
+}
+
+.objectif{
+  margin-top: 50px;
+}
+
+.objectif ul{
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+dt{
+  margin-top: 30px;
+}
+
+.lienProject a{
+  display: block;
+  margin-left: clamp(30px, 6vw, 60px);
+  margin-top: 10px;
+  text-decoration: none;
+}

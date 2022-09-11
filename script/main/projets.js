@@ -4,19 +4,21 @@ export const projets = [
     {
         _id: 0,
         title: "Reservia",
-        tag: ["perso", "frontend", "animation"],
-        desicription: "du texte",
+        tag: ["formation", "frontend",],
+        desicription: "Transformez une maquette en site web avec HTML & CSS",
         imageURL: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         objectif: [
             "Implémenter une interface responsive",
-            "Intégrer du contenu conformément à une maquette"
+            "Intégrer du contenu conformément à une maquette",
         ],
-        gitHub: ""
+        gitHub: "https://github.com/crist51/P2_degorre_christophe",
+        site: "",
+        article:"",
     },
     {
         _id: 1,
         title: "Homyfood",
-        tag: ["perso", "frontend", "animation"],
+        tag: ["formation", "frontend", "animation"],
         desicription: "Dynamisez une page web avec des animations CSS",
         imageURL: "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600",
         objectif: [
@@ -26,12 +28,14 @@ export const projets = [
             "Mettre en place une structure de navigation pour un site web",
             "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
         ],
-        gitHub: ""
+        gitHub: "https://github.com/crist51/p3_degorre_christophe",
+        site: "",
+        article:"",
     },
     {
         _id: 2,
         title: "La chouette agence",
-        tag: ["formation", "frontend", "animation"],
+        tag: ["formation", "frontend", "SEO"],
         desicription: "Optimisez un site web existant",
         imageURL: "https://rgalegria.github.io/lachouetteagencelyon/la-chouette-agence-lyon-social-banner.png",
         objectif: [
@@ -41,12 +45,14 @@ export const projets = [
             " Optimiser le référencement d'un site web",
             " Assurer l'accessibilité d'un site web",
         ],
-        gitHub: ""
+        article:"",
+        site: "",
+        gitHub: "https://github.com/crist51/P4_degorre_christophe",
     },
     {
         _id: 3,
         title: "Kanap",
-        tag: ["perso", "frontend", "animation"],
+        tag: ["formation", "frontend",],
         desicription: "Construisez un site e-commerce en JavaScript",
         imageURL: "https://www.mamaisonetnous.fr/wp-inside/uploads/2021/10/xscreenshot_20210527-143852_instagram-780x773.jpg.pagespeed.ic.ur2qSvxwVD.jpg",
         objectif: [
@@ -55,25 +61,29 @@ export const projets = [
             "Créer un plan de test pour une application",
             "Gérer des événements JavaScript",
         ],
-        gitHub: ""
+        gitHub: "https://github.com/crist51/P5_degorre_christophe",
+        site: "",
+        article:"",
     },
     {
         _id: 4,
         title: "Hot Takes",
-        tag: ["perso", "frontend", "animation"],
-        desicription: "Construisez une API sécurisée pour une application d'avis gastronomiques",
+        tag: ["formation", "backend",],
+        desicription: "Construisez une API sécurisée pour une application d'avis d'épice épicée",
         imageURL: "https://st.depositphotos.com/1105977/2856/i/600/depositphotos_28566121-stock-photo-fire-ball.jpg",
         objectif: [
             "Stocker des données de manière sécurisée",
             "Implémenter un modèle logique de données conformément à la réglementation",
             "Mettre en œuvre des opérations CRUD de manière sécurisée",
         ],
-        gitHub: ""
+        article:"",
+        site: "",
+        gitHub: "https://github.com/crist51/P6_degorre_christophe",
     },
     {
         _id: 5,
         title: "Groupomania",
-        tag: ["perso", "frontend", "animation"],
+        tag: ["formation", "frontend", "Backend", "freamwork", "backend"],
         desicription: "Créez un réseau social d’entreprise",
         imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6iEgGjGAEgs0escLrgTtSPVDurwLhzU6XA&usqp=CAU",
         objectif: [
@@ -81,23 +91,27 @@ export const projets = [
             "Authentifier un utilisateur et maintenir sa session",
             "Implémenter un stockage de données sécurisé en utilisant une base de données",
         ],
-        gitHub: ""
+        article:"",
+        site: "",
+        gitHub: "https://github.com/crist51/P7_degorre_christophe",
     },
     {
         _id: 6,
         title: "Quizz JavaSript",
-        tag: "perso frontend animation",
-        desicription: "Créez un quizz zn JS",
+        tag: ["perso", "frontend",],
+        desicription: "Créez un quizz en JS",
         imageURL: "https://us.123rf.com/450wm/winterbee/winterbee1608/winterbee160800051/62797483-abstrait-d%C3%A9grad%C3%A9-orange-jaune-couleur-floue-fond-.jpg",
         objectif: [
             "Interagir avec un web service avec JavaScript",
             "Gérer des événements JavaScript",
         ],
-        gitHub: ""
+        article:"Réalisationn d'un quizz JavaScript avec des question improbable, serez vous à la Hauteur?",
+        site: "https://crist51.github.io/quizzJavascript/",
+        gitHub: "",
     },
     {
         _id: 7,
-        title: "Aston Martin F1 ",
+        title: "Aston Martin F1",
         tag: ["perso", "frontend", "animation"],
         desicription: "Créez un landing pages",
         imageURL: "https://www.f1news.fr/wp-content/uploads/2020/10/vettel-aston-martin-f1-2021.jpg",
@@ -106,7 +120,38 @@ export const projets = [
             "Mettre en place son environnement Front-End",
             "Gérer des événements JavaScript",
         ],
-        gitHub: ""
+        article:"Création d'unes pages annimer d'une ecurie de F1 un sport que j'apprecie particullieremnt",
+        site: "https://crist51.github.io/landing-page_01/",
+        gitHub: "https://github.com/crist51/landing-page_01",
+    },
+    {
+        _id: 8,
+        title: "Astro Découverte",
+        tag: ["perso", "frontend", "freamwork"],
+        desicription: "Découverte du freamwork Astro, dans le but de comprendre son fonctionnement.",
+        imageURL: "https://voonze.com/wp-content/uploads/2022/08/Web-framework-Astro-10-promises-faster-websites.jpg",
+        objectif: [
+            "Découvrir le freamwork ASTRO",
+            "Comprendre ces aventages et ces inconvénients",
+            "Manipulé et comprendre ASTRO",
+        ],
+        article: "Astro est un freamwork qui va nous permetre de créer des sites web en Javascript, il permet des creer des sites bassés essentiellement surdu HTML ce qui permet de gagner en performances. Il permet de greffer des comportement JS juste sur les ellement qui en on besoin.</br>Il utilise une extension particulière ”. astro”. Pour les différentprojet on a utilisé l’extension ”. md” a la place de ”. astro”.",
+        gitHub: "https://github.com/crist51/christophe.degorre",
+        site: "",
+    },
+    {
+        _id: 9,
+        title: "Optimisation du porfolio",
+        tag: ["perso", "frontend",],
+        desicription: "Réalisé un site dynamique et facilement mantenable, sans backend.",
+        imageURL: "https://images.pexels.com/photos/2517748/pexels-photo-2517748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        objectif: [
+            "Réaliser un site web Dynamique",
+            "Opimisé la maintenabilité du site",
+        ],
+        article: "Mon portfolio était réalisé avec Astro, qui est orianté pour les site statique. Pour optimisé l'ajout de contenue et sa facilité de réaliser,j'ai décidé de le rendre dynamique.<br> Je sais qu'avec WordPress ce serais rapide...Mais le but de cette objectif est de manipuler JS et gardez un maximum d'evolution possible si je le souahite.",
+        gitHub: "",
+        site: "",
     },
 
 ]

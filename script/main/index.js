@@ -3,15 +3,14 @@ import { projets } from "./projets.js"
 
 
 
-const _card_mrvio_1 = document.querySelector("._card_mrvio_1")
 const index = document.querySelector(".index")
-console.log(index);
 
 // ctl page index
 if (index != null) {
     console.log("nombre de projets");
     console.log(projets.length);
     
+    const _card_mrvio_1 = document.querySelector("._card_mrvio_1")
 
     // ---------- function nombre alaeatoir
     function random(min, max) {
@@ -50,13 +49,10 @@ if (index != null) {
         
     }
     
-    // ----------insert lien
-    const _linkInner_mrvio_59 = document.querySelector("._linkInner_mrvio_59")
-
     // ---------------- title typewriter --------------- \\
 
-    const title = document.querySelector("h1");
-    const txt = "Degorre Christophe";
+    const title = document.querySelector(".desc");
+    const txt = "Passionez de la digitalisation du monde moderne, je souhaite accompagner les association ainsi que les sociétées dans cette transition .";
 
     function typewriter(text, index) {
         if (index < text.length) {
