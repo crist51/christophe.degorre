@@ -70,7 +70,7 @@ if (oneProject != null) {
         if (!!projets[id].gitHub.length) {
 
             let a1 = document.createElement("a");
-            a1.textContent = `lien vers le site gitHub`
+            a1.textContent = `lien vers le repository gitHub`
             a1.href = projets[id].gitHub
             a1.target = "blank"
             lienProject.appendChild(a1);
