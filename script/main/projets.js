@@ -13,7 +13,7 @@ export const projets = [
         ],
         gitHub: "https://github.com/crist51/P2_degorre_christophe",
         site: "",
-        article:"",
+        article:"https://github.com/crist51/P2_degorre_christophe",
     },
     {
         _id: 1,
