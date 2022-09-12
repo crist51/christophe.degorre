@@ -60,12 +60,6 @@
     margin-top: 0
 }
 
-/* @media (min-width: 750px) {
-    .title:where(.astro-4YTBCMPP) {
-        font-size: clamp(24px, 8vw, 80px);
-        }
-} */
-
 .grid:where(.astro-4YTBCMPP) {
     display: grid;
     grid-gap: 2rem
