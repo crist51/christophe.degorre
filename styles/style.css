@@ -201,7 +201,7 @@ dt{
 
 @media(max-width: 1400px){
   .hero, .hero img, .gradient  {
-      height: clamp(200px, 40vh, 400px)!important;
+      height: clamp(300px, 60vh, 600px)!important;
   }
 
 }
