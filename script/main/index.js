@@ -52,7 +52,7 @@ if (index != null) {
     // ---------------- title typewriter --------------- \\
 
     const title = document.querySelector(".desc");
-    const txt = "Passionez de la digitalisation du monde moderne, je souhaite accompagner les association ainsi que les sociétées dans cette transition .";
+    const txt = "Passionnez de la digitalisation du monde moderne, je souhaite accompagner les associations ainsi que les sociétés dans cette transition.";
 
     function typewriter(text, index) {
         if (index < text.length) {

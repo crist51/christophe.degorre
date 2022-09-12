@@ -9,17 +9,6 @@ if (portfolio != null) {
 
     for (let b = projets.length; 0 < b; b--) {
         const i = b-1
-        console.log(projets[i]);
-        
-    //}
-
-console.log(projets);
-    
-
-
-
-    //for (let i = 0; i < projets.length; i++) {
-        // ---------- insert projet
 
         let _card_mrvio_1 = document.createElement("div");
         _card_mrvio_1.className= "_card_mrvio_1";

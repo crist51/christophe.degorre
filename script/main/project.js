@@ -39,6 +39,8 @@ if (oneProject != null) {
 
     const h3 = document.querySelector("h3");
     h3.textContent = projets[id].desicription;
+    console.log(h3);
+    console.log(projets[id].desicription);
 
     const content = document.querySelector(".content")
     let article = document.createElement("article");

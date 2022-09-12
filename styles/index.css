@@ -20,6 +20,9 @@
         justify-content: space-evenly;
         padding: 0;
     }
+    .role {
+        display: none !important;
+      }
 }
 
 .desc {
