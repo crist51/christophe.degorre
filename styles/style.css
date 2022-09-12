@@ -19,15 +19,12 @@ body{
   margin: 5px 0;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 414px) {
   .desc {
     display: none;
   }
-}
-
-@media (max-width: 335px) {
-  .role {
-    display: none !important;
+  .tagline{
+    display: none;
   }
 }
 
@@ -68,9 +65,26 @@ body{
   color: rgb(206, 206, 206);
 }
 
-h1, .sectionTitle  {
-  font-size:clamp(20px, 7vw, 70px);
-  height: 65px;
+h1{
+  font-size:clamp(35px, 7vw, 70px);
+}
+
+.sectionTitle{
+  font-size:clamp(20px, 4vw, 40px);
+}
+
+
+
+@keyframes carret {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .subtitle{
@@ -96,3 +110,61 @@ h1, .sectionTitle  {
   transition: background-color 300ms;
 }
 
+.grid:where(.astro-HLE4NI4M) {
+  display: grid;
+  grid-gap: 3rem
+}
+
+.hero{
+  height: clamp(300px, 60vh, 600px);
+  background-position: center;
+}
+
+.objectif{
+  margin-top: 50px;
+}
+
+.objectif ul{
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+dt{
+  margin-top: 30px;
+}
+
+.lienProject a{
+  display: block;
+  margin-left: clamp(30px, 6vw, 60px);
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.astro-CT2XOGS6{
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+
+.about, .pageProject{
+  overflow: hidden;
+}
+.about div, .pageProject section {
+  animation: slideInTop 1s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes slideInTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+._desc_mrvio_32 mt0 mb2{
+  font-size: clamp(15px, 3vw , 30px);
+}
