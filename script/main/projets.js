@@ -149,7 +149,7 @@ export const projets = [
             "Réaliser un site web Dynamique",
             "Opimisé la maintenabilité du site",
         ],
-        article: "Mon portfolio était réalisé avec Astro, qui est orianté pour les site statique. Pour optimisé l'ajout de contenue et sa facilité de réaliser,j'ai décidé de le rendre dynamique.<br> Je sais qu'avec WordPress ce serais rapide...Mais le but de cette objectif est de manipuler JS et gardez un maximum d'evolution possible si je le souahite.",
+        article: "Mon portfolio était réalisé avec Astro, qui est orianté pour les site statique. Pour optimisé l'ajout de contenue, j'ai décidé de le rendre dynamique.<br> Je sais qu'avec WordPress ce serais rapide...Mais le but de cette objectif est de manipuler JS et gardez un maximum d'evolution possible si je le souahite.",
         gitHub: "",
         site: "",
     },
