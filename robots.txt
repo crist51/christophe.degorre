@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-sitemap: https://crist51.github.io/P4_degorre_christophe_git/index.html/
+sitemap: https://crist51.github.io/christophe.degorre/
