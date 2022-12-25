@@ -141,27 +141,12 @@ dt{
 }
 
 .astro-CT2XOGS6{
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: justify;
 }
 
 .about, .pageProject{
   overflow: hidden;
-}
-.about div, .pageProject section {
-  animation: slideInTop 1s ease-in-out 0s 1 normal forwards;
-}
-
-@keyframes slideInTop {
-	0% {
-		opacity: 0;
-		transform: translateY(-250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
 }
 
 ._desc_mrvio_32 .desc{
@@ -204,4 +189,31 @@ dt{
       height: clamp(300px, 60vh, 600px)!important;
   }
 
+}
+
+.about p{
+  opacity: 0;
+}
+
+.active{
+  animation: fade_top 1s ease 0s 1 normal forwards;
+}
+
+@keyframes fade_top {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.cv{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  opacity: 1;
 }
