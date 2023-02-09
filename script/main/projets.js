@@ -135,15 +135,15 @@ export const projets = [
             "Comprendre ces avantages et ces inconvénients",
             "Manipulé et comprendre ASTRO",
         ],
-        article: "Astro est un freamwork qui va nous permettre de créer des sites web en Javascript, il permet des creer des sites bassés essentiellement surdu HTML ce qui permet de gagner en performances. Il permet de greffer des comportements JS justes sur les éléments qui en on besoin. Il utilise une extension particulière ”. astro”.",
-        gitHub: "https://github.com/crist51/christophe.degorre",
+        article: "Astro est un framework populaire pour les développeurs, offrant des outils pour accélérer le développement de logiciels. Les avantages incluent une productivité accrue grâce à des modèles de code prédéfinis et des bibliothèques de composants, ainsi qu'une conformité aux bonnes pratiques de développement. Cependant, l'apprentissage d'un nouveau framework peut être difficile et prendre du temps, en particulier pour les développeurs habitués à d'autres frameworks. De plus, la documentation d'Astro peut parfois être insuffisante ou désuète. Les développeurs doivent peser les avantages et les inconvénients d'Astro avant de décider s'il convient à leurs besoins de développement.",
+        gitHub: "",
         site: "",
     },
     {
         _id: 9,
         title: "Optimisation du porftolio",
         tag: ["perso", "frontend", "SEO",],
-        desicription: "Réalisé un site dynamique et facilement maintenable, sans backend.",
+        desicription: "Réalisé un site dynamique et facilement maintenable.",
         imageURL: "https://images.pexels.com/photos/2517748/pexels-photo-2517748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         objectif: [
             "Réaliser un site web Dynamique",
@@ -153,5 +153,21 @@ export const projets = [
         gitHub: "",
         site: "",
     },
+    {
+        _id: 10,
+        title: "Face à l'avancée de l'IA : ",
+        tag: ["IA", "dev"],
+        desicription: "Le rôle des développeurs juniors de demain",
+        imageURL: "https://www.larochellegc.com/wp-content/uploads/2020/06/Intelligence-artificielle-appliquee.-scaled-925x590-c-center.jpg",
+        objectif: [
+            "Reflexion IA",
+            "Futur dans le metier",
+        ],
+        gitHub: "",
+        site: "",
+        article:"Avec l'avènement de l'intelligence artificielle et de la technologie de pointe en développement, les développeurs doivent constamment s'adapter aux nouveaux défis et aux opportunités qui se présentent. Les développeurs juniors, qui viennent tout juste d'entrer sur le marché du travail, sont confrontés à un avenir incertain alors que de plus en plus de tâches peuvent être automatisées.</br>Cependant, la technologie ne peut pas remplacer toutes les compétences humaines. Les développeurs juniors peuvent encore jouer un rôle important dans l'avenir en se concentrant sur les compétences que les IA ne peuvent pas remplacer, telles que la créativité, la résolution de problèmes complexes et la prise de décision stratégique. En développant ces compétences, les développeurs juniors peuvent continuer à être compétitifs sur le marché du travail, même face à l'avancée de l'IA.</br>En outre, les développeurs juniors peuvent également développer des compétences en intelligence artificielle, les utiliser pour créer de nouvelles solutions et les mettre en œuvre pour améliorer l'efficacité et la qualité du travail. Les développeurs juniors peuvent également s'engager dans la recherche pour améliorer les algorithmes d'IA et explorer les nouveaux horizons en matière de développement.</br></br>En conclusion, l'avenir des développeurs juniors dépend de leur capacité à évoluer avec les changements technologiques et à se concentrer sur les compétences qui sont uniques à l'être humain. En adoptant une attitude proactive et en continuant à se développer, les développeurs juniors peuvent continuer à avoir un impact significatif sur l'industrie du développement et sur l'avenir de la technologie en général.</br>Pour conclure, l'IA ne signifie pas la fin des développeurs juniors. Au lieu de cela, cela signifie qu'ils doivent s'adapter à de nouveaux défis et opportunités, en se concentrant sur les compétences qui les rendent uniques et en explorant les nouvelles avenues en matière de développement. Les développeurs juniors peuvent être l'avenir du développement en utilisant leurs compétences pour créer de nouvelles solutions et en explorant les nouveaux horizons en matière de développement."
+    },
 
 ]
+
+
