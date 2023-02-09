@@ -127,7 +127,7 @@ export const projets = [
     {
         _id: 8,
         title: "Astro Découverte",
-        tag: ["perso", "frontend", "freamwork"],
+        tag: ["article", "frontend", "freamwork"],
         desicription: "Découverte du freamwork Astro, dans le but de comprendre son fonctionnement.",
         imageURL: "https://voonze.com/wp-content/uploads/2022/08/Web-framework-Astro-10-promises-faster-websites.jpg",
         objectif: [
