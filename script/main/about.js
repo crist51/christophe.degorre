@@ -4,7 +4,6 @@
 const generalAnimatedElements = [
   ...document.querySelectorAll("p"),
 ];
-console.log(generalAnimatedElements);
 
 const animatedContents = [
   ...generalAnimatedElements,
@@ -21,7 +20,6 @@ function handleIntersect(entries) {
       entry.target.classList.add("active");
       intersectionObserver.unobserve(entry.target)
       // stop listening to the event
-      console.log("erzr");
     }
   })
 }

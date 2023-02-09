@@ -218,3 +218,19 @@ dt{
   justify-content: center;
   opacity: 1;
 }
+
+@media (min-width: 750px) {
+  .portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio ._card_mrvio_1{
+    width: 46%;
+  }
+
+}
+
+._card_mrvio_1{
+  opacity: 0;
+}

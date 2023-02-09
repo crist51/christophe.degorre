@@ -6,10 +6,7 @@ import { projets } from "./projets.js"
 const index = document.querySelector(".index")
 
 // ctl page index
-if (index != null) {
-    console.log("nombre de projets");
-    console.log(projets.length);
-    
+if (index != null) {    
     const _card_mrvio_1 = document.querySelector("._card_mrvio_1")
 
     // ---------- function nombre alaeatoir
@@ -18,8 +15,6 @@ if (index != null) {
     }
 
     const randomProject = projets[random(projets.length, 0)];
-    console.log("projet aléaoire");
-    console.log(randomProject);
 
 
     // ---------- insert projet

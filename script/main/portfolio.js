@@ -60,10 +60,32 @@ if (portfolio != null) {
         _linkInner_mrvio_59.className= "_linkInner_mrvio_59";
         _linkInner_mrvio_59.textContent = projets[i].title
         _link_mrvio_37.appendChild(_linkInner_mrvio_59);
-        
-
-
 
     }
 
 }
+
+// ---------------  Scroll animations --------------- \\
+
+const generalAnimatedElements = [
+    ...document.querySelectorAll("._card_mrvio_1"),
+  ];
+  
+  const animatedContents = [
+    ...generalAnimatedElements,
+  ]
+  
+  const intersectionObserver = new IntersectionObserver(handleIntersect, { rootMargin: "-20%" })
+  // we listen to the event at 20% off
+  
+  animatedContents.forEach(el => intersectionObserver.observe(el))
+  
+  function handleIntersect(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+        intersectionObserver.unobserve(entry.target)
+        // stop listening to the event
+      }
+    })
+  }
