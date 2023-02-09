@@ -83,7 +83,7 @@ export const projets = [
     {
         _id: 5,
         title: "Groupomania",
-        tag: ["formation", "frontend", "Backend", "freamwork", "backend"],
+        tag: ["formation", "frontend", "Backend", "freamwork"],
         desicription: "Créez un réseau social d’entreprise",
         imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6iEgGjGAEgs0escLrgTtSPVDurwLhzU6XA&usqp=CAU",
         objectif: [
