@@ -156,7 +156,7 @@ export const projets = [
     {
         _id: 10,
         title: "Face à l'avancée de l'IA : ",
-        tag: ["IA", "dev"],
+        tag: ["IA", "dev", "article"],
         desicription: "Le rôle des développeurs juniors de demain",
         imageURL: "https://www.larochellegc.com/wp-content/uploads/2020/06/Intelligence-artificielle-appliquee.-scaled-925x590-c-center.jpg",
         objectif: [
