@@ -231,6 +231,11 @@ dt{
 
 }
 
-._card_mrvio_1{
+.portfolio ._card_mrvio_1{
   opacity: 0;
+}
+
+.aleatoireProject{
+  width: 100%;
+  height: 100%;
 }
